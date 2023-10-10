@@ -1,0 +1,17 @@
+export const {
+  BASE_URL = 'https://localhost:5001',
+  SERVER_PORT = 5001,
+  DB_URL = 'mongodb://localhost:27017/auth-db',
+  JWT_ACCESS_SECRET = 'jwt-access-secret',
+  JWT_ACCESS_EXPIRATION_TIME = '15m',
+  JWT_REFRESH_SECRET = 'jwt-refresh-secret',
+  JWT_REFRESH_EXPIRATION_TIME = '30d',
+  JWT_CONFIRM_SECRET = 'jwt-confirm-secret',
+  JWT_CONFIRM_EXPIRATION_TIME = '15m',
+  SALT_ROUNDS = 5,
+  COOKIES_SECRET = 'cookies-secret',
+  SMTP_HOST = "smtp.example.com",
+  SMTP_PORT = "587",
+  SMTP_USER = 'test@test.test',
+  SMTP_PASSWORD = 'test@test',
+} = process.env;
